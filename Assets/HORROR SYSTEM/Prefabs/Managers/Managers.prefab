@@ -1,0 +1,436 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7387093562129408268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6252315377280975235}
+  - component: {fileID: 6456859753828123010}
+  - component: {fileID: 341061767176040275}
+  - component: {fileID: 5015724171441281711}
+  - component: {fileID: 7202779125185169001}
+  - component: {fileID: 5670918103887614691}
+  - component: {fileID: 8393543057861782424}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6252315377280975235
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7387093562129408268}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6456859753828123010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7387093562129408268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: add24c411d4694546b5ea5a77796f850, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputControls: {fileID: -944628639613478452, guid: 5cf51b80e5697cf44bd356151c998bf7,
+    type: 3}
+  actionMapName: Player
+  move: Move
+  look: Look
+  running: Running
+  crouch: Crouch
+  iteraction: Interaction
+  treatment: Treatment
+  pause: Pause
+  flashlight: Flashlight
+  battery: Battery
+  aiming: Aiming
+  attack: Attack
+  knife: Knife
+  pistol: Pistol
+  reload: Reload
+  sun: Sun
+  moveAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: d35206fd-911a-4ec8-b9d2-4fcd26066bc1
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  lookAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 9f5e1da3-2fcb-4d24-a435-b4ddbe8064ef
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  runningAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 50df12b7-2896-422d-8003-11c1a24b3ba4
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  crouchAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 0e4656de-b349-46a9-ab5a-f42b96ca2cb6
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  interactionAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: b029b45f-415c-4680-aedf-48f146c09004
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  treatmentAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 9c520d5a-97b3-4a5d-8da2-5b2aa6b44d7f
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  pauseAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 34d898a3-fea0-4fa6-b9dc-c2e77883f3be
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  flashlightAction:
+    m_Name: Flashlight
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 8a6100a4-6423-44a6-a9e7-50e69b96916c
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  batteryAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 0c62ea38-30ee-4d43-90f3-f7c450d6b259
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  aimingAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 5aa5f784-8bda-4c3d-acd8-27956879a852
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  attackAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: e3bd433d-002f-486e-b52c-01eeee70abb7
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  knifeAction:
+    m_Name: Knife
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 9bc9486e-e684-4ce1-9277-b650966c24d7
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  pistolAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 55ab9f69-5630-4d2b-b3bb-d738ecdf999f
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  reloadPistolAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 688c1f2d-b967-40c7-bedf-218574c1b7fb
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  sunAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 24557978-3dc9-472b-8cbf-a1a1c0d26d6a
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+--- !u!114 &341061767176040275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7387093562129408268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cf6472414878cf46960a7fc5c2c8604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashlightObject: {fileID: 0}
+  flashlightHandPoint: {fileID: 0}
+  flashlightInventoryPoint: {fileID: 0}
+  flashlightInInventory: 0
+  knifeObject: {fileID: 0}
+  knifeHandPoint: {fileID: 0}
+  knifeInventoryPoint: {fileID: 0}
+  knifeInInventory: 0
+  pistolObject: {fileID: 0}
+  pistolHandPoint: {fileID: 0}
+  pistolInventoryPoint: {fileID: 0}
+  pistolInInventory: 0
+--- !u!114 &5015724171441281711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7387093562129408268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eec63d752d2fe24880ad2498025cd46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionIcon: {fileID: 0}
+  interactionIconOffset: {x: 0, y: 0.1, z: 0}
+  notePanel: {fileID: 0}
+  healthBar: {fileID: 0}
+  bloodEffect: {fileID: 0}
+  medKitCount: {fileID: 0}
+  medKitCountValue: 0
+  batteryPanel: {fileID: 0}
+  batteryBar: {fileID: 0}
+  batteryCount: {fileID: 0}
+  batteryCountValue: 0
+  ammoPanel: {fileID: 0}
+  ammoCount: {fileID: 0}
+  ammoCountValue: 0
+  currentAmmo: 0
+  magazineCapacity: 20
+  startAmmo: 100
+  keyNamesText: {fileID: 0}
+  pauseMenu: {fileID: 0}
+--- !u!114 &7202779125185169001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7387093562129408268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9587df17f97391543aa3fc6ea8b039f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allKeyName: []
+--- !u!114 &5670918103887614691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7387093562129408268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bddefaeb17a541419a0811a207ad35a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionSounds:
+  - name: PickUp Interaction Sound
+    clip: {fileID: 8300000, guid: 9bb23ddf046531b46a37bbfab1ee0358, type: 3}
+    volume: 0.05
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Key Interaction Sound
+    clip: {fileID: 8300000, guid: 065d64532efed8940a66dca07824c12e, type: 3}
+    volume: 0.2
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: TV Interaction Sound
+    clip: {fileID: 8300000, guid: eca43b7fcd6a55647b901fba12c5eb63, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Radio Interaction Sound
+    clip: {fileID: 8300000, guid: 5f8d9a6513ea0704fa3063ef3a8cb9a7, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Note Interaction Sound
+    clip: {fileID: 8300000, guid: d3f3ad404a8cafe44a0bddf21576c67d, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Lamp Interaction Sound
+    clip: {fileID: 8300000, guid: f3dbc66d8f344864591c00c767c0a59f, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Door Locked Sound
+    clip: {fileID: 8300000, guid: a4ee3920489bbe341a977dbe07a8b5f1, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Door Open Sound
+    clip: {fileID: 8300000, guid: 21da5e1b650b5bd4e87c6c96a6bd7049, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Door Close Sound
+    clip: {fileID: 8300000, guid: e076944286b66df439ca68ad428c8558, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  playerSounds:
+  - name: Pistol Shoot Sound
+    clip: {fileID: 8300000, guid: ddc234cf1c580f94cb71fa0494ec3368, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Pistol Reload Sound
+    clip: {fileID: 8300000, guid: 75c67afa248ec7a4bbbab7bea16a3722, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Flashlight Click Sound
+    clip: {fileID: 8300000, guid: bf278913f29f40747add49f4825f012c, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Flashlight Reload Sound
+    clip: {fileID: 8300000, guid: c96c6956c841471469e7ad983413e3f0, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Treatment Drink Sound
+    clip: {fileID: 8300000, guid: 8539948474093734e81edec8d53868bd, type: 3}
+    volume: 0.05
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Knife Attack Sound
+    clip: {fileID: 8300000, guid: 9dc623b17db8ff145b75dd2fe037d580, type: 3}
+    volume: 0.05
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+--- !u!114 &8393543057861782424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7387093562129408268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f020c5de209dcd4fb70765aa56e24e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerController: {fileID: 0}
+  playerCameraController: {fileID: 0}
+  animationManager: {fileID: 0}

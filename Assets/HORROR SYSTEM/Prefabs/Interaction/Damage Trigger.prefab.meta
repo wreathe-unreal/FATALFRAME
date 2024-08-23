@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f6a6d492fcbe0be48b3d58e11553e1c0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212009
+  packageName: HORROR SYSTEM
+  packageVersion: 2.0 Preview
+  assetPath: Assets/HORROR SYSTEM/Prefabs/Interaction/Damage Trigger.prefab
+  uploadId: 680474

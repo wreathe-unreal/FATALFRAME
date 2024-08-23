@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7cd39943c9ff24944908535c5e68a86c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212009
+  packageName: HORROR SYSTEM
+  packageVersion: 2.0 Preview
+  assetPath: Assets/HORROR SYSTEM/URP/Universal Render Pipeline_Renderer.asset
+  uploadId: 680474

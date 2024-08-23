@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f302268fd422e874eba014ed12d6ffee
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212009
+  packageName: HORROR SYSTEM
+  packageVersion: 2.0 Preview
+  assetPath: Assets/HORROR SYSTEM/Scripts/Interaction/Item/Item.cs
+  uploadId: 680474

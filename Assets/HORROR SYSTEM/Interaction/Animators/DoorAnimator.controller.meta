@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 25c3bc6967088884791876349483b4cc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212009
+  packageName: HORROR SYSTEM
+  packageVersion: 2.0 Preview
+  assetPath: Assets/HORROR SYSTEM/Interaction/Animators/DoorAnimator.controller
+  uploadId: 680474

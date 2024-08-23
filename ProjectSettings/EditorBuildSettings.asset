@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  m_configObjects: {}
+    path: Assets/HORROR SYSTEM/Scenes/MainMenu.unity
+    guid: 7da7b5cd6e2cf744aa25b0e2cf9d0548
+  - enabled: 1
+    path: Assets/HORROR SYSTEM/Scenes/SceneLoader.unity
+    guid: c99477ba5da9b7440aad5b33d2bf1d69
+  - enabled: 1
+    path: Assets/HORROR SYSTEM/Scenes/DemoScene.unity
+    guid: 053a246627fe7974ca5d42ffc5df7a53
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 11835615b1e2e3d478e9701ae38c7ff0,
+      type: 2}
+  m_UseUCBPForAssetBundles: 0

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 507ea1f1fae496840a3bf77c9b38691b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212009
+  packageName: HORROR SYSTEM
+  packageVersion: 2.0 Preview
+  assetPath: Assets/HORROR SYSTEM/Scripts/Menu/PauseMenu.cs
+  uploadId: 680474

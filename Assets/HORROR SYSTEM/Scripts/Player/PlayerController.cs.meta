@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: eeb6ab1e149ddc4499ca0c73eb3af9e2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212009
+  packageName: HORROR SYSTEM
+  packageVersion: 2.0 Preview
+  assetPath: Assets/HORROR SYSTEM/Scripts/Player/PlayerController.cs
+  uploadId: 680474
