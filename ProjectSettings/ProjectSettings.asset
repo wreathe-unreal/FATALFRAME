@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 27
-  productGUID: 00000000000000000000000000000000
+  productGUID: c109bd04c77c71944943d69f470f4a9b
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -813,7 +813,10 @@ PlayerSettings:
   webGLWebAssemblyTable: 0
   webGLWebAssemblyBigInt: 0
   webGLCloseOnQuit: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: STEAMAUDIO_ENABLED
+    Standalone: STEAMAUDIO_ENABLED
+    iPhone: STEAMAUDIO_ENABLED
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
@@ -930,7 +933,7 @@ PlayerSettings:
   cloudProjectId: b23a1214-16a7-4746-8273-0d146933e8ba
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: HORROR SYSTEM 2.0
+  projectName: FATALFRAME
   organizationId: ena-1
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

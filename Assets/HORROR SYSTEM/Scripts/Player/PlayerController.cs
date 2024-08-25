@@ -128,38 +128,44 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        float targetMove = input.MoveInput.y;
-        float targetStrafe = input.MoveInput.x;
+        // Get the movement inputs
+        float moveInput = input.MoveInput.y;
+        float strafeInput = input.MoveInput.x;
 
-        if (Mathf.Abs(targetMove) > Mathf.Abs(targetStrafe))
+        // Combine the inputs into a single direction vector
+        Vector3 inputDirection = new Vector3(strafeInput, 0.0f, moveInput);
+
+        // Adjust the magnitude for diagonal movement to prevent slow down
+        if (inputDirection.x > 1f)
         {
-            targetStrafe = 0f;
-        }
-        else
-        {
-            targetMove = 0f;
+            inputDirection.x = 1f;
         }
 
+        if (inputDirection.z > 1f)
+        {
+            inputDirection.z = 1f;
+        }
+
+        // Apply the smooth transition for movement
         float transitionSpeed = 5f;
-        move = Mathf.Lerp(move, targetMove, Time.deltaTime * transitionSpeed);
-        strafe = Mathf.Lerp(strafe, targetStrafe, Time.deltaTime * transitionSpeed);
+        move = Mathf.Lerp(move, inputDirection.z, Time.deltaTime * transitionSpeed);
+        strafe = Mathf.Lerp(strafe, inputDirection.x, Time.deltaTime * transitionSpeed);
 
-        float threshold = 0.01f;
-        move = Mathf.Abs(move) < threshold ? 0f : move;
-        strafe = Mathf.Abs(strafe) < threshold ? 0f : strafe;
-
+        
+        // Set animation parameters
         playerAnimations.MovementParameters(move, strafe);
 
-        Vector3 inputDirection = new Vector3(input.MoveInput.x, 0.0f, input.MoveInput.y).normalized;
-
+        // Handle running animation
         if (move != 0 || strafe != 0)
         {
             playerRunning = input.runningAction.IsPressed();
             playerAnimations.SetRunningAnimation(playerRunning);
-
-            Rotation();
         }
 
+        // Perform character rotation based on movement direction
+        Rotation();
+
+        // Handle crouch actions when not aiming or running
         if (!isPistolAiming && !playerRunning)
         {
             if (input.crouchAction.WasPressedThisFrame())
@@ -179,19 +185,7 @@ public class PlayerController : MonoBehaviour
         directionToTarget.y = 0f;
         float targetRotation = Mathf.Atan2(directionToTarget.x, directionToTarget.z) * Mathf.Rad2Deg;
 
-        if (isPistolAiming || isKnifeAiming)
-        {
-            transform.rotation = Quaternion.Euler(0.0f, targetRotation, 0.0f);
-        }
-        else
-        {
-            float angleBetween = Mathf.DeltaAngle(transform.eulerAngles.y, targetRotation);
-            if (Mathf.Abs(angleBetween) > luft || strafe != 0)
-            {
-                float rotation = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetRotation, ref rotationVelocity, playerRotationSmooth);
-                transform.rotation = Quaternion.Euler(0.0f, rotation, 0.0f);
-            }
-        }
+        transform.rotation = Quaternion.Euler(0.0f, targetRotation, 0.0f);
     }
     #endregion
 
