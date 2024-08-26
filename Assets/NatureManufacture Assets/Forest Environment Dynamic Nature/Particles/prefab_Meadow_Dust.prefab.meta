@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: c23cafc0b68a65443a7bdc0874b0bf70
+timeCreated: 1539165769
+licenseType: Free
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150668
+  packageName: Forest Environment - Dynamic Nature
+  packageVersion: 1.8.8.5
+  assetPath: Assets/NatureManufacture Assets/Forest Environment Dynamic Nature/Particles/prefab_Meadow_Dust.prefab
+  uploadId: 650704

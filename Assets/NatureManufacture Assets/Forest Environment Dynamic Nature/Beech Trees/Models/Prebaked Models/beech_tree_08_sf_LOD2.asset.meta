@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ac1b5e7b61e611f4d90d9cf39a324d7a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150668
+  packageName: Forest Environment - Dynamic Nature
+  packageVersion: 1.8.8.5
+  assetPath: Assets/NatureManufacture Assets/Forest Environment Dynamic Nature/Beech
+    Trees/Models/Prebaked Models/beech_tree_08_sf_LOD2.asset
+  uploadId: 650704

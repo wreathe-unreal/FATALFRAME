@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5dd19d27b79e40f419603998044d6742
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150668
+  packageName: Forest Environment - Dynamic Nature
+  packageVersion: 1.8.8.5
+  assetPath: Assets/NatureManufacture Assets/Object Shaders/Standard_Metallic_Road_Transparent.shader
+  uploadId: 650704

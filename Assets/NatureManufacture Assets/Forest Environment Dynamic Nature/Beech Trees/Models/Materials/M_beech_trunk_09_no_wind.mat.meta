@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 51b524018d9537044be31d73119f7d29
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: '{"GUIDArray":["","","",""]}'
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150668
+  packageName: Forest Environment - Dynamic Nature
+  packageVersion: 1.8.8.5
+  assetPath: Assets/NatureManufacture Assets/Forest Environment Dynamic Nature/Beech
+    Trees/Models/Materials/M_beech_trunk_09_no_wind.mat
+  uploadId: 650704

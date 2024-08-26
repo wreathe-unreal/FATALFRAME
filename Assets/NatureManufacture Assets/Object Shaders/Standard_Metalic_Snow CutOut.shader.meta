@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f87741369955173458f5f486204c7287
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150668
+  packageName: Forest Environment - Dynamic Nature
+  packageVersion: 1.8.8.5
+  assetPath: Assets/NatureManufacture Assets/Object Shaders/Standard_Metalic_Snow
+    CutOut.shader
+  uploadId: 650704

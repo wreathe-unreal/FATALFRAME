@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 88e05d1d051dbe14da3257013071561a
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150668
+  packageName: Forest Environment - Dynamic Nature
+  packageVersion: 1.8.8.5
+  assetPath: Assets/NatureManufacture Assets/Foliage Shaders/Tree_Bark_Metalic.shader
+  uploadId: 650704

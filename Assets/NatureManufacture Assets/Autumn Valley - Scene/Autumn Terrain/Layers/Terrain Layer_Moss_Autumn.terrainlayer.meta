@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8a94e71764da7e74d94db253968000a5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8574412962073106934
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 231538
+  packageName: Autumn Valley - Level
+  packageVersion: 1.0.7
+  assetPath: Assets/NatureManufacture Assets/Autumn Valley - Scene/Autumn Terrain/Layers/Terrain
+    Layer_Moss_Autumn.terrainlayer
+  uploadId: 651559

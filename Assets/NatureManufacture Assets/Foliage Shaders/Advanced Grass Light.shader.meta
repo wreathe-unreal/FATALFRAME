@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 14642f160589e354db97395ba4bdc651
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150668
+  packageName: Forest Environment - Dynamic Nature
+  packageVersion: 1.8.8.5
+  assetPath: Assets/NatureManufacture Assets/Foliage Shaders/Advanced Grass Light.shader
+  uploadId: 650704

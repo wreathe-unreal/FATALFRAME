@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 565bc1d150cc9f54e9aede8face241ef
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191851
+  packageName: Mountain Environment - Dynamic Nature
+  packageVersion: 1.5.5
+  assetPath: Assets/NatureManufacture Assets/Scripts/ParticleCollision.cs
+  uploadId: 650726

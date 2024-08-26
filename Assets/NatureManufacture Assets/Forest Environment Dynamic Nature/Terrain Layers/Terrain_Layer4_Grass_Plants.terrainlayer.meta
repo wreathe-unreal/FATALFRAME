@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ad305b6e98dc851419f30978c3b0dd18
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8574412962073106934
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150668
+  packageName: Forest Environment - Dynamic Nature
+  packageVersion: 1.8.8.5
+  assetPath: Assets/NatureManufacture Assets/Forest Environment Dynamic Nature/Terrain
+    Layers/Terrain_Layer4_Grass_Plants.terrainlayer
+  uploadId: 650704

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e7e3fa6205f1c3b4999f678b922e5301
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150668
+  packageName: Forest Environment - Dynamic Nature
+  packageVersion: 1.8.8.5
+  assetPath: Assets/NatureManufacture Assets/Foliage Shaders/Advanced Grass Specular.shader
+  uploadId: 650704

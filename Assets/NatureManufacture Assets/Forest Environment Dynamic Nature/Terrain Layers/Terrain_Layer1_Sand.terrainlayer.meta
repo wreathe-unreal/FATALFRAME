@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c6ba2d2a6cdf7b640bb0a1e8eb3f3360
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8574412962073106934
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150668
+  packageName: Forest Environment - Dynamic Nature
+  packageVersion: 1.8.8.5
+  assetPath: Assets/NatureManufacture Assets/Forest Environment Dynamic Nature/Terrain
+    Layers/Terrain_Layer1_Sand.terrainlayer
+  uploadId: 650704

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 63ba0219bd4caff41ac10d089f5fd0b1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8574412962073106934
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150668
+  packageName: Forest Environment - Dynamic Nature
+  packageVersion: 1.8.8.5
+  assetPath: Assets/NatureManufacture Assets/Forest Environment Dynamic Nature/Terrain
+    Layers/Terrain_Layer8_Stones.terrainlayer
+  uploadId: 650704

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6fff49e2c6ea6e148a385309c1f1b71d
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191851
+  packageName: Mountain Environment - Dynamic Nature
+  packageVersion: 1.5.5
+  assetPath: Assets/NatureManufacture Assets/Foliage Shaders/Cross_Model_Shader_Snow.shader
+  uploadId: 650726

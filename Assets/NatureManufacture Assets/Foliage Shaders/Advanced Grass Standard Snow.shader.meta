@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b85326a7a635e0240bdeed60d8c0cbeb
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191851
+  packageName: Mountain Environment - Dynamic Nature
+  packageVersion: 1.5.5
+  assetPath: Assets/NatureManufacture Assets/Foliage Shaders/Advanced Grass Standard
+    Snow.shader
+  uploadId: 650726
